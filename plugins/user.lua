@@ -3,21 +3,14 @@ return {
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
   -- {
-  --   "ray-x/lsp_signature.nvim",
-  --   event = "BufRead",
+  --   'akinsho/flutter-tools.nvim',
+  --   lazy = false,
+  --   dependencies = {
+  --     'nvim-lua/plenary.nvim',
+  --     'stevearc/dressing.nvim', -- optional for vim.ui.select
+  --   },
   --   config = function()
-  --     require("lsp_signature").setup()
-  --   end,
-  -- },
-  {
-    'akinsho/flutter-tools.nvim',
-    lazy = false,
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-      'stevearc/dressing.nvim', -- optional for vim.ui.select
-    },
-    config = function()
-      require("flutter-tools").setup {} -- use defaults
-    end
-  }
+  --     require("flutter-tools").setup {} -- use defaults
+  --   end
+  -- }
 }
