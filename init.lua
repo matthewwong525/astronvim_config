@@ -32,6 +32,7 @@ return {
         allow_filetypes = { -- enable format on save for specified filetypes only
           -- "go",
           "dart",
+          "typescript",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
@@ -48,7 +49,8 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
-      "dartls"
+      "denols",
+      "dartls",
     },
   },
   -- Configure require("lazy").setup() options
