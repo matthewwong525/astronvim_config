@@ -1,3 +1,5 @@
+-- adapted from https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/pack/typescript-all-in-one/init.lua
+-- adapted so that it tsserver instead of vsts
 return {
   { import = "astrocommunity.pack.typescript-deno" },
   {
